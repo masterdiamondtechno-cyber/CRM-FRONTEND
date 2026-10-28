@@ -1,0 +1,3 @@
+# Leads
+
+The Leads workflow is rendered by shared CRM routes in src/app/App.jsx and uses /api/v1/leads, including detail and status history. List, search, pagination, status updates, and create/edit flows are available. Won leads can be converted to an active client and optional primary contact through the transactional conversion endpoint. Lead delete, CSV import/export, and dedicated feature UI tests are not implemented.

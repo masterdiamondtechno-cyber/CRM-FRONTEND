@@ -26,7 +26,7 @@ export default function RegistrationPage() {
   return (
     <main className="grid min-h-screen place-items-center px-4 py-10 text-[#f4f5fb]">
       <section className="glass w-full max-w-md rounded-[24px] p-7 md:p-9">
-        <p className="text-[10px] font-bold tracking-[.2em] text-[#969ffa]">NORTHSTAR CRM</p>
+        <p className="text-[10px] font-bold tracking-[.2em] text-[#969ffa]">MASTER'S CRM</p>
         <h1 className="mt-3 font-display text-2xl font-bold">{sent ? "Check your inbox" : "Create your workspace"}</h1>
         {sent ? (
           <div className="mt-5 space-y-4">

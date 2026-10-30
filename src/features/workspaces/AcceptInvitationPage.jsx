@@ -36,7 +36,7 @@ export default function AcceptInvitationPage() {
   return (
     <main className="grid min-h-screen place-items-center px-4 py-10 text-[#f4f5fb]">
       <section className="glass w-full max-w-md rounded-[24px] p-7 md:p-9">
-        <p className="text-[10px] font-bold tracking-[.2em] text-[#969ffa]">NORTHSTAR CRM</p>
+        <p className="text-[10px] font-bold tracking-[.2em] text-[#969ffa]">MASTER'S CRM</p>
         <h1 className="mt-3 font-display text-2xl font-bold">Join a workspace</h1>
         <p className="mt-2 text-sm text-[#9099b2]">If you already have an account, leave the fields blank. Otherwise, set up your name and password.</p>
         <form className="mt-7 space-y-4" onSubmit={submit}>

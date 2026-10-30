@@ -22,7 +22,7 @@ export default function VerifyRegistrationPage() {
   return (
     <main className="grid min-h-screen place-items-center px-4 text-[#f4f5fb]">
       <section className="glass w-full max-w-md rounded-[24px] p-8 text-center">
-        <p className="text-[10px] font-bold tracking-[.2em] text-[#969ffa]">NORTHSTAR CRM</p>
+        <p className="text-[10px] font-bold tracking-[.2em] text-[#969ffa]">MASTER'S CRM</p>
         <h1 className="mt-3 font-display text-2xl font-bold">{state.loading ? "Verifying email..." : state.verified ? "Email verified" : "Verification failed"}</h1>
         {state.error && <p role="alert" className="mt-3 text-sm text-rose-100">{state.error}</p>}
         {state.verified && <p className="mt-3 text-sm text-[#b9c1d7]">Your workspace is ready. Sign in to continue.</p>}

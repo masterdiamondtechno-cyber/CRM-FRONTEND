@@ -4,8 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 if (process.env.VERCEL === "1") {
   const apiBaseUrl = process.env.VITE_API_BASE_URL;
-  if (!apiBaseUrl || !/^https:\/\/[^/]+\/api\/v1\/?$/.test(apiBaseUrl)) {
-    throw new Error("Set VITE_API_BASE_URL to the HTTPS backend URL ending in /api/v1 in Vercel project settings.");
+  if (!apiBaseUrl) {
+    console.warn("⚠️ Warning: VITE_API_BASE_URL is not configured yet. Set it in Vercel project settings once your backend is deployed.");
   }
 }
 
